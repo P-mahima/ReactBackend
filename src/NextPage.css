@@ -1,0 +1,252 @@
+.NextPageImage {
+    width: 600px;
+    height: 400px;
+}
+.avtaarflex
+{
+    display: flex;
+    justify-content: space-around;
+}
+.avtaar1
+{
+    display: flex;
+    gap: 10px;
+    
+}
+.avtaar
+{
+    height: 120px;
+    width: 120px;
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+}
+.date
+{
+    color: grey;
+}
+.nameN
+{
+    color: black;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.namedate
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.NextPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Head-NextPage{
+    font-size: 22px;
+    color: black;
+}
+.NextPage-LargeContent
+    {
+        width: 90%;
+        text-align: justify;
+    }
+.avtaar2
+{
+    width: 190px;
+    height: 90px;
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+}
+.NextPageHeading
+{
+    width: 60%;
+    color: black;
+}
+.BacktoHome
+{
+    width: 20%;
+    height: 5vh;
+    /* padding: 20px; */
+    border-radius: 10px;
+    background-color: blue;
+    /* color: white; */
+    font-size: 20px;
+}
+.NextPage-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    color: black;
+}
+.NextPage-heading{
+    display: flex;
+    flex-direction: column;
+}
+.NextPage-MainFooter-Image
+{
+    width: 40%;
+    box-shadow: 10px 10px 10px gray;
+}
+.Home-Heading {
+    /* text-align: left; */
+    text-align: left;
+    padding-left: 20px;
+    text-decoration: underline 2px solid red;
+    text-shadow: 2px 2px 5px blueviolet;
+}
+.NextPage-MainFooter
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.NextPage-Share
+{
+    display: flex;
+    
+}
+.NextPage-Flex{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.NextPage-like
+{
+    /* width: 20%; */
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+
+    /* padding-right: 90px; */
+    gap: 20px;
+    /* padding-top: 70px; */
+
+
+}
+h1{
+    color: black;
+}
+h3{
+    color: grey;
+}
+.NextPage-like-name
+{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+@media screen and (min-width:300px) and (max-width:760px) {
+    .NextPageImage {
+        width: 300px;
+        height: 300px;
+        margin-top: 40px;
+    }
+    .Home-Heading {
+        /* text-align: left; */
+        /* text-align: left; */
+        /* padding-left: 20px; */
+        padding-left: 0px ;
+        text-decoration: underline 2px solid red;
+    }    
+    .NextPage-LargeContent{
+        width: 60%;
+    }
+    .NextPage-MainFooter{
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .NextPage-head {
+        width: 90%;
+        /* height: 30vh; */
+    }
+    .NextPage-MainFooter-Image{
+        width: 300px;
+        height: 200px;
+    }
+    .NextPageHeading
+    {
+        width: 350px;
+    }
+    .NextPage-LargeContent
+    {
+        width: 350px;
+    }
+    .Head-NextPage-Small{
+        font-size: 15px;
+        width: 80%;
+        color: black;
+
+    }
+    .Head-NextPage{
+        /* font-size: 22px; */
+        width: 80%;
+    }
+    .avtaar
+{
+    height: 70px;
+    width: 70px;
+}
+.avtaar2
+{
+    width: 150px;
+    height: 30px;
+    margin-left: -180px;
+    /* text-decoration: none; */
+    margin-bottom: 5px;
+}
+.avtaarflex
+{
+    padding-top: 30px ;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.date
+{
+    display: flex;
+    /* text-align: left; */
+}
+.nameN
+{
+    /* text-align: left; */
+    margin-left: 0px;
+}
+.BacktoHome{
+    width: 80%;
+    height: 5vh;
+}
+.NextPage-Share{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+}
+@media screen and (min-width:760px) and (max-width:1100px){
+    .BacktoHome{
+        width: 30%;
+    }
+    .NextPageImage{
+        width: 450px;
+    }
+   
+}

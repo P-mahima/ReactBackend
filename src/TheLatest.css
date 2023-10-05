@@ -1,0 +1,748 @@
+.Bollywood-heading {
+    /* text-decoration:none; */
+    /* color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 900px;
+    /* padding-left: 20px; */
+    /* text-align-last: auto; */
+
+}
+.loading{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.Bollywood-topost-heading{
+    font-size: 12px;
+}
+.image-Bollywood-Bollywood{
+    width: 1px;
+    height: 1px;
+}
+.Bollywood-image {
+    width: 30%;
+    height: 30vh;
+    /* display: flex; */
+    /* padding-top: 20px; */
+    /* padding-left: 20px; */
+    margin-left: 20px;
+    /* display: flex-end; */
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+    box-shadow: 2px 2px 10px 2px;
+    /* gap: 30px; */
+}
+.Bollywood-image-article{
+    width: 20%;
+    height: 20vh;
+    /* display: flex; */
+    /* padding-top: 20px; */
+    /* padding-left: 20px; */
+    /* margin-left: 20px; */
+    /* display: flex-end; */
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+    box-shadow: 2px 2px 10px 2px;
+    /* gap: 30px; */
+
+}
+.Bollywood-image-hollywood{
+    width: 25%;
+    height: 25vh;
+    margin-bottom: 20px;
+    /* padding-top: 20px; */
+    box-shadow: 2px 2px 10px 2px;;
+    /* gap: 30px; */
+
+}
+.Bollywood-image-toppost{
+    width: 35%;
+    height: 25vh;
+    margin-bottom: 20px;
+    /* padding-top: 20px; */
+    box-shadow: 2px 2px 10px 2px;
+}
+
+.image-toppost-Bollywood{
+    width: 100%;
+    height: 30.7vh;
+    margin-top: 50px;
+    /* box-shadow: 5px 2px 20px 2px; */
+}
+
+.Name-Bollywood-heading
+{
+    color: black;
+    text-align: left;
+    border-bottom: 2px solid gray;
+    text-decoration: 2px underline red;
+}
+
+.Bollywood-item {
+    display: flex;
+    /* width: 50%; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 2px solid gray;
+}
+.Border{
+    border-bottom: 2px solid gray;
+}
+.latest-item {
+    /* width: 800px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.TopPostGif{
+    width: 80%;
+    padding: 0;
+    margin: 0;
+}
+.TopPostGifFitness{
+    width: 80%
+}
+.TopPostGifFood{
+    width: 70%;
+}
+
+.Bollywood-smallcontent {
+    color: gray;
+    /* width: 70%; */
+}
+
+.Bollywood-TopPost {
+    display: flex;
+    flex-direction: column-reverse;
+    /* width: 40%; */
+    /* gap: 3px; */
+    /* width: 70%; */
+    /* padding-left: 150px; */
+
+    /* width: 500px; */
+
+}
+
+hr {
+    color: rgb(31, 29, 29);
+}
+
+.Bollywood-item-Toppost {
+    display: flex;
+   
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 50px;
+    /* padding-top: 20px; */
+    /* width: 100%; */
+    /* margin: 20px; */
+
+    /* gap: 3px; */
+    /* flex-direction: column; */
+
+    /* width: 500px; */
+    overflow: hidden;
+}
+
+
+.Home-item-Toppost {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    /* width: 500px; */
+}
+
+.Home-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 40px;
+}
+
+.HomeSideImages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Home-images1 {
+    width: 90%;
+    height: 55vh;
+    border: 10px solid rgb(1, 1, 19);
+    box-shadow: 2px 2px 20px 2px;
+}
+
+.Home-images1:hover {
+    transform: translate(0, -20px);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Home-images2 {
+    width: 90%;
+    height: 25vh;
+    border: 10px solid black;
+    box-shadow: 2px 2px 20px 2px;
+
+}
+
+.Home-images2:hover {
+    transform: translate(0, -10px);
+}
+
+.Home-images3 {
+    width: 90%;
+    height: 25vh;
+    border: 10px solid black;
+    box-shadow: 2px 2px 20px 2px;
+}
+
+.Home-images3:hover {
+    transform: translate(0, -10px);
+}
+
+.The-Latest-Heading {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    /* padding: 20px; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Home-image {
+    width: 80%;
+    height: 30vh;
+    border: 2px solid gray;
+    box-shadow: 20px 20px 20px gray;
+}
+
+.Home-Heading {
+    text-align: left;
+    padding-left: 20px;
+    text-decoration: underline 2px solid red;
+    text-shadow: 2px 2px 5px blueviolet;
+    color: black;
+}
+
+.Home-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    font-size: 15px;
+    height: 20vh;
+    /* color: black; */
+    text-align-last: auto;
+    /* text-decoration: none; */
+}
+
+.Latest-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    /* width: 100%; */
+}
+
+.Latest-Toppost {
+    /* display: flex; */
+    flex-direction: column-reverse;
+    gap: 10px;
+    width: 40%;
+
+    /* width: 500px; */
+
+}
+
+.Bollywood-Latest-image {
+    width: 50%;
+    height: 20vh;
+    padding-bottom: 12px;
+}
+
+.Advertisement-Box {
+    height: 70.5vh;
+    width: 90%;
+    text-align: center;
+    background-color: gray;
+    border: 5px solid black;
+    box-shadow: 2px 2px 10px 2px;
+    text-decoration: underline 2px solid black;
+}
+
+.Advertisement {
+    border-top: 5px solid black;
+    height: 60.5vh;
+    width: 700px;
+}
+
+.Home-Right-Latest {
+    display: flex;
+    gap: 10px;
+    /* padding: 30px; */
+}
+.image-Tech-Bollywood{
+    width: 1px;
+    height: 1px;
+}
+.image-food-Bollywood{
+    width: 1px;
+    height: 1px;
+}
+.image-fitness-Bollywood{
+    width: 1px;
+    height: 1px;
+}
+.Article-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 30px; */
+    gap: 10px;
+    /* width: 90%; */
+    width: 500px;
+    font-size: 20px;
+    text-align-last: auto;
+}
+.Article-heading-heading{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding-left: 30px; */
+    gap: 10px;
+    /* width: 90%; */
+    width: 700px;
+    font-size: 15px;
+    text-align-last: auto;
+}
+
+.Article-image {
+    display: flex;
+    align-items: flex-end;
+    width: 90%;
+    height: 68vh;
+   margin-left: 30px;
+   margin-top: 30px;
+    border: 5px solid black;
+    border-radius: 10px;
+    /* gap: 20px; */
+}
+
+.HomeHeading {
+    color: black;
+    /* width: 80%; */
+    text-align: justify;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.Home-TopPost {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+.Home-Latest_stories {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Latest-Stories-heading {
+    width: 40%;
+}
+
+.Latest-Stories-image {
+    width: 40%;
+    height: 20vh;
+    padding-left: 20px;
+}
+.Hollywood-box{
+    width: 80%;
+    height: 150vh;
+    border: 2px solid black;
+    /* padding-top: 30px; */
+}
+/* .Bollywood-item-ToppostWidth
+{
+    width: 20%;
+} */
+
+/* img {
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px;
+
+} */
+
+@media screen and (min-width:300px) and (max-width:760px) {
+    .Bollywood-item-Toppost {
+        display: flex;
+        gap: 80px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin:7px;
+        /* padding: 50px; */
+        /* width: 350px; */
+    }
+    .image-Bollywood-Bollywood{
+        display: none;
+    }
+    .image-toppost-Bollywood {
+        margin-top: -30px;
+        padding-bottom: 20px;
+    }
+    .Bollywood-image-toppost{
+        width: 300px;
+        height: 200px;
+    }
+    .Bollywood-smallcontent
+    {
+        padding-bottom: 25px;
+    }
+   
+    .Bollywood-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 40px; */
+        width: 320px;
+        /* padding-top: 20px; */
+    }
+
+    .Bollywood-heading {
+        width: 330px;
+    }
+
+    .Bollywood-image {
+        display: flex;
+        width: 300px;
+        height: 200px;
+
+    }
+
+    .Bollywood-TopPost {
+        width: 350px;
+    }
+
+    .Home-images2 {
+        display: none;
+    }
+    .Home-image{
+        width: 80%;
+    }
+    .Home-images3 {
+        display: none;
+    }
+
+    .Home-images1 {
+        width: 300px;
+        height: 280px;
+        margin-top: 30px;
+        /* padding-top: 30; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Home-images {
+        gap: 0px;
+    }
+    .TopPostGif{
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .Home-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 300px;
+        text-align-last: auto;
+        /* text-decoration: none; */
+    }
+
+    .The-Latest-Heading {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* padding: 20px; */
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .Latest-item {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+
+    .Article-heading {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        /* padding-left: 30px; */
+        /* gap: 10px; */
+        width: 350px;
+        font-size: 15px;
+        /* text-align-last: auto; */
+    }
+
+    .Article-image {
+        /* display: flex; */
+        /* align-items: flex-end; */
+        /* gap: 20px; */
+        width: 300px;
+        height: 400px;
+        /* margin-top: 20px; */
+
+    }
+
+    .Home-Latest_stories {
+        display: flex;
+        flex-direction: column;
+        /* gap: 20px;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .Latest-Stories-image {
+        width: 300px;
+        height: 200px;
+    }
+
+    .Home-Right-Latest {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Advertisement {
+        height: 220px;
+        width: 290px;
+        /* margin-left: 20px; */
+        /* background-image: url('https://cdn.pixabay.com/animation/2023/02/23/23/05/23-05-26-891_512.gif'); */
+    }
+
+    .Advertisement-Box {
+        height: 300px;
+        width: 300px;
+        margin-left: 30px;
+    
+    }
+
+    .Bollywood-Latest-image {
+        width: 90%;
+        height: 30vh;
+        padding-bottom: 12px;
+        box-shadow: 10px 10px 10px gray;
+        /* border: 2px solid black; */
+    }
+    .Bollywood-image-article{
+        width: 80%;
+        height: 30vh;
+    }
+    .Article-heading-heading{
+        width: 300px;
+    }
+    .Latest-Stories-heading {
+        width: 80%;
+    }
+
+
+}
+
+@media screen and (min-width:760px) and (max-width:1100px) {
+
+    .Bollywood-item-Toppost {
+        display: flex;
+        gap: 20px;
+        /* padding-top: 20px; */
+        /* flex-direction: column; */
+        text-align: center;
+        padding-top: 10px;
+        
+        /* width: 200px; */
+    }
+    .image-toppost-Bollywood{
+        display: none;
+    }
+    .TopPostGif{
+        display: none;
+    }
+    .TopPostGifFood{
+        display: none;
+    }
+    .TopPostGifFitness{
+        display: none;
+    }
+
+    .Bollywood-image {
+        width: 120px;
+        height: 120px;
+
+    }
+    .Bollywood-image-article{
+        width: 80%;
+    }
+    
+
+    .Bollywood-heading {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .Bollywood-item {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        gap: 10px;
+        padding-left: 10px;
+        /* padding-top: 20px; */
+        padding-bottom: 20px;
+        /* width: 350px; */
+    }
+    .Advertisement-Box
+    {
+        width: 90%;
+        height: 30vh;
+    }
+    .Advertisement
+    {
+        width: 100%;
+        height: 20vh;
+    }
+    .Home-Heading
+    {
+        font-size: 40px;
+    
+    }
+    .Home-heading
+    {
+        font-size: 15px;
+        width: 80%;
+        text-align: justify;
+    
+    }
+    .Article-heading
+    {
+        width: 400px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .Article-image{
+        /* padding-top: 20px; */
+        margin-top: 20px;
+        width: 90%;
+        height: 20vh;
+    }
+    .Home-Right-Latest{
+        gap: 50px;
+    }
+    .Latest-item{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        /* margin-left: 50px; */
+        margin-bottom: 10px;
+    }
+    .Home-images{
+        gap: 10px;
+        /* height: 500px; */
+    }
+    .The-Latest-Heading {
+        gap: 10px;
+    }
+    .Home-images1{
+        height: 40vh;
+        /* padding-top: 20px; */
+    }
+    .Home-images2{
+        height: 18vh;
+    }
+    .Home-images3{
+        height: 18vh;
+    }
+    .Bollywood-image-toppost{
+        height: 120px;
+        width: 120px;
+    }
+    .image-Bollywood-Bollywood{
+        width: 80%;
+        height: 40vh;
+    }
+    .image-Tech-Bollywood{
+        width: 80%;
+        height: 20vh;
+    }
+    .image-fitness-Bollywood{
+        width: 80%;
+        height: 20vh;
+    }
+    .image-food-Bollywood{
+        display: none;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .Home-image{
+        height: 20vh;
+    }
+    .Bollywood-Latest-image{
+        width: 110%;
+        height: 15vh;
+    }
+    .Article-heading-heading{
+        width: 110%;
+        font-size: 15px;
+    }
+    .Bollywood-image-article{
+        width: 80%;
+    }
+    .nextheadarticle{
+        font-size: 20px;
+    }
+  
+    .Latest-Stories-image{
+        width: 80%;
+    }
+    .Latest-Stories-heading{
+        width: 200px;
+    }
+   
+    
+}
